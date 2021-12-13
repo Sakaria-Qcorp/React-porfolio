@@ -2,7 +2,7 @@ const Projects = ({projectName,Description,img,projectLink,repoLink,Cstyle}) => 
     return (
         <div className="card text-center" >
            <div className="overflow"> 
-           <h6><img src={img} alt=""/> </h6>   
+           <h6><img src={img} className="card-img-top" alt=""/> </h6>   
            </div>              
     <div className="card-body text-dark">
         <h2 >{projectName}</h2>

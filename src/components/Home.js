@@ -1,9 +1,11 @@
 import Picture from './images/Picture.jpeg';
+//import "./css/style.css";
+//import react
 
 
 const Home = () => {
     return (
-        <div>
+        <div className="header">
              <img  className="container-sm primary" src={Picture} alt="" />
              <h4 className="border-left"> 
               My name is Sakaria Ahmed and I started coding in 2013 as a hobby of mine.

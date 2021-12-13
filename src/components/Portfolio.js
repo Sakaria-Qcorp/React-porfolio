@@ -2,6 +2,7 @@ import Projects from "./Projects"
 import PokiShot from "./images/GCAVscreenShot.PNG"
 import WorkOutImg from "./images/WorkoutTracker.PNG"
 import NoteTakerImg from "./images/Notetaker.png"
+import "./css/style.css"
 
 const Portfolio = () => {
     const descriptionPokiGo = `This application uses the weather of whichever city you're in to find out which pokemon would give you an environmental advantage at different times of the day. 

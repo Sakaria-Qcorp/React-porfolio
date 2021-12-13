@@ -20,10 +20,11 @@ const Portfolio = () => {
                               This application was created with Javascript,Express,Node, and MongoDB`
    
     return (
-        <div className="container-fluid d-flex justify-content-center">
-              <h1>Portfolio Pojects</h1>
-              
-          <div className="row">
+        
+        <div>
+            <h1>Portfolio Pojects</h1>
+            <div className="container-fluid d-flex justify-content-center">     
+            <div className="row">
               <div className="col-md-4">
               <Projects projectName="Gotta-Catch-A-Vibe" Description={descriptionPokiGo} img={PokiShot} projectLink="https://bit.ly/3nrdJC5"repoLink="https://bit.ly/3qNxMg8"Cstyle="container"/>
               </div>
@@ -37,6 +38,7 @@ const Portfolio = () => {
               <Projects projectName="Note-Taker" Description={descriptionNote} img={NoteTakerImg} projectLink="https://bit.ly/3wZzcVU"repoLink="https://bit.ly/3DqQbm9"Cstyle="container"/>
               </div>
           </div>
+         </div>  
             
         </div>
     )

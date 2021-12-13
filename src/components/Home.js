@@ -1,7 +1,7 @@
 import Picture from './images/Picture.jpeg';
 //import "./css/style.css";
 //import react
-
+ //import "./"
 
 const Home = () => {
     return (

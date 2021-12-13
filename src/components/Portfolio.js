@@ -31,12 +31,14 @@ const Portfolio = () => {
               <div className="col-md-4">
               <Projects projectName="Work-Out-Tracker" Description={descriptionFitness} img={WorkOutImg} projectLink="https://bit.ly/3ciLTBA"repoLink="https://bit.ly/3nq1dCQ"Cstyle="container"/>
               </div>
+              <div className=".w-100"></div>
               <div className="col-md-4">
               <Projects projectName="Budget-Tracker" Description={descriptionBudget} img={PokiShot} projectLink="https://bit.ly/3nq3Cxm "repoLink="https://bit.ly/3qUnLxo"Cstyle="container"/> 
               </div>
               <div className="col-md-4">
               <Projects projectName="Note-Taker" Description={descriptionNote} img={NoteTakerImg} projectLink="https://bit.ly/3wZzcVU"repoLink="https://bit.ly/3DqQbm9"Cstyle="container"/>
               </div>
+              
           </div>
          </div>  
             

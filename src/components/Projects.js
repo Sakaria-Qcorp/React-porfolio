@@ -1,3 +1,7 @@
+import "./css/Cstyle.css"
+
+
+
 const Projects = ({projectName,Description,img,projectLink,repoLink,Cstyle}) => {
     return (
         <div className="card text-center" >

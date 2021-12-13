@@ -10,7 +10,7 @@ const Projects = ({projectName,Description,img,projectLink,repoLink,Cstyle}) => 
     </div>
   
     <h6><a className="btn btn-outline success"href= {projectLink}>website</a></h6>
-    <h6><a href={repoLink}>Repo</a></h6>
+    <h6><a className="btn btn-outline success" href={repoLink}>Repo</a></h6>
           </div>  
        
     )

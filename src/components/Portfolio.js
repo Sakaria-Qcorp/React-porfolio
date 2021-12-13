@@ -22,8 +22,8 @@ const Portfolio = () => {
     return (
         
         <div>
-            <h1>Portfolio Pojects</h1>
-            <div className="container-fluid d-flex justify-content-center">     
+            <h1 className="jumbotron">Portfolio Pojects</h1>
+            <div className="container-fluid d-flex justify-content-space-around">     
             <div className="row">
               <div className="col-sm-4">
               <Projects projectName="Gotta-Catch-A-Vibe" Description={descriptionPokiGo} img={PokiShot} projectLink="https://bit.ly/3nrdJC5"repoLink="https://bit.ly/3qNxMg8"Cstyle="container"/>

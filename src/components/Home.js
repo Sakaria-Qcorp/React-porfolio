@@ -6,6 +6,7 @@ import Picture from './images/Picture.jpeg';
 const Home = () => {
     return (
         <div className="header">
+            <h1 class="intro">Hi! my name is Sakaria Ahmed</h1>
              <img  className="container-sm primary" src={Picture} alt="" />
              <h4 className="border-left"> 
               My name is Sakaria Ahmed and I started coding in 2013 as a hobby of mine.

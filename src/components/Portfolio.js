@@ -7,7 +7,7 @@ import NoteTakerImg from "./images/Notetaker.png"
 
 const Portfolio = () => {
     const descriptionPokiGo = `This application uses the weather of whichever city you're in to find out which pokemon would give you an environmental advantage at different times of the day. 
-    "As a group we used multiple APIs and combined that to provide the application user that information. We used CSS and HTML to desing the website. 
+    "As a group we used multiple APIs and combined that to provide the application user that information. We used CSS and HTML to design the website. 
     We used JavaScript to work with the API's and put it all together.`
    
     const descriptionBudget =`In this app the user will be able to add expenses and deposits to their budget with or without a connection. 

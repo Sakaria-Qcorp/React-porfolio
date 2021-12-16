@@ -9,18 +9,19 @@ const Navbar = () => {
     <div>
       <Router>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-         <ul>
-         <li>
-         <Link to="/Home">Home</Link>
+        <div class="collapse navbar-collapse" id="navbarNav">
+         <ul className="navbar-nav">
+         <li className="nav-item">
+         <Link className="nav-link"to="/Home">Home</Link>
          </li>
-         <li>
-         <Link to="/Resume">Resume</Link>
+         <li className="nav-item">
+         <Link className="nav-link" to="/Resume">Resume</Link>
          </li> 
-         <li>
-         <Link to="/Portfolio">Projects</Link>
+         <li className="nav-item">
+         <Link  className="nav-link" to="/Portfolio">Projects</Link>
          </li>
-         <li>
-         <Link to="/Contact">Contacts</Link>
+         <li className="nav-item">
+         <Link className="nav-link" to="/Contact">Contacts</Link>
          </li>
          </ul>
 
@@ -40,7 +41,7 @@ const Navbar = () => {
           
           </Route>
         </Routes>
-      
+        </div>
         </nav>
      </Router> 
 
